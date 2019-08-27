@@ -1,32 +1,58 @@
 {% extends "layout.html" %}
 {% block content %}
 <body>
-  During the recovery phase following a disaster, FEMA IA team members perform damage assessment 'On the ground' to assess the level of damage caused to residential parcels and critical infrastructures. This work is very labor intensive and inefficient if done manually. Also, due to verification measures put in place by FEMA, the assessment teams have to first report to the regional centeers and after the information has been verified the information will be passed to the FEMA headquarters to start restoration fundings. As expected this process can take very long time, and leaves a lot of people affected by disasters in shelters and out of their home.
+  <h3>How should you position your products to stay competitive? </h3><br>
 
-This is where using our app the assessment team can speed up their process by taking a simple photo and forwarding the information directly to FEMA regional and headquarters databases. Currently we have a Web App working where the FEMA IA team members will take a photo of the affected residential parcel and then a form containing the pre-disaster and post-disaster photos will appear on the screen and provides the following information about the property: <br>
-<ul>
-  <li>Address </li>
-  <li>The zillow id for the unit </li>
-  <li>Home type </li>
-  <li>Year Built </li>
-  <li>Lot size </li>
-  <li>Living area </li>
-  <li>Bathrooms </li>
-  <li>Bedrooms </li>
-  <li>Last time sold </li>
-  <li>Last sold price </li>
-  <li>Zestimate price </li>
-</ul>
+  With the rise of online grocery shopping, it has become more important than ever for brands to choose the right pricing and seo strategies to stay competitive. Unlike Brick and mortar grocery stores, where brands can rent out better shelf spaces to position their products in the best locations, online stores are all about seo optimization, and competitive pricing. Even though it is cheaper to sell products online, the winning brands are the ones who utilize data efficiently to show up on the top of the search ahead of their competitors.
 
-Also a form will appear on the bottom of these outputs where the FEMA member will input the following information from drop down menus dedicated to the metrics FEMA looks at before certifying fundings. <br>
-<ul>
-  <li> Disaster Type</li>
-  <li> Damage Degree</li>
-  <li> Occupancy Status</li>
-  <li> Rent Status of the neighborhood</li>
-  <li> Property access</li>
-  <li> Additional notes</li>
-</ul>
-After the submitting the above fields all the data will be saved into a PostGreSQL Database and can be accessed at both regional and headquarters.
+  Consumer Packaged Goods companies spend a lot of money buying data from third party institutions such as IRI and Nielson when a lot of the data collected are already publicly available.
+
+  The goal of this website is to help small business owners who are trying to enter the highly saturated CPG market, research the top keywords and the best pricing practices to stay competitive and grow their brands outreach.
+
+  This website has used the Target, Whole Foods, Amazon and Bristol Farms' websites to scrape thru their products, and gather all of the information available about every single item. The total number of rows for the dataset is 13615 and the prices are for the 90048 zipcode in Los Angeles, CA. <br><br>
+
+
+  <table style="width:100%">
+    <tr>
+      <td>Dairy</td>
+      <td>Produce</td>
+      <td>Snacks & Sweets</td>
+      <td>Pantry</td>
+      <td>Bread & Bakery</td>
+    </tr>
+    <tr>
+      <td>Frozen Foods</td>
+      <td>Meat & Seafood</td>
+      <td>Breakfast & Cereals</td>
+      <td>Specialty Diets</td>
+      <td>Nutrition & Weight Loss</td>
+    </tr>
+    <tr>
+      <td>Beverages</td>
+      <td>Coffee & Tea</td>
+      <td>Sports & Energy Drink</td>
+      <td>Deli</td>
+    </tr>
+  </table>
+
+
+<br><br><br>
+  <table>
+
+
+    <tr>
+      <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Amazon_Prime_Now_logo.png" width='200' height='150' alt="primenow"></td>
+
+      <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Target_logo.svg" width='200' height='150'alt="Target Logo"></td>
+
+    </tr>
+
+    <tr>
+      <td><img src="https://logos-download.com/wp-content/uploads/2016/02/Whole_Foods_Market_logo_big.png" width='200' height='150'alt="Whole Foods"></td>
+
+      <td><img src="https://www.bristolfarms.com/blog/wp-content/uploads/2019/06/BF_Black_Under2in-1.png" width='200' height='150'alt="Bristol Farms"></td>
+    </tr>
+  </table>
+  <br><br>
   </Body>
 {% endblock content %}

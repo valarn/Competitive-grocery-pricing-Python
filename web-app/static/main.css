@@ -1,7 +1,7 @@
 body {
   background-image: "../web_background/home.jpg";
   opacity: 0.8;
-  background: #fafafa;
+  background: #f8f8f8;
   color: #333333;
   margin-top: 5rem;
 }
@@ -11,15 +11,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #ffa500;
+}
+.navbar-brand {
+  color: #f8f8f8
+  font-size:20px;
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+  color: #f8f8f8;
+  font-size: 15px;
 }
 
-.site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
+.nav-link:hover {
+  color: #0070e1;
+  font-size: 15px;
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -27,9 +33,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-section {
-  background: #ffffff;
+  background: #ffa500;
   padding: 10px 20px;
-  border: 1px solid #dddddd;
+  border: 1px solid #ffa500;
   border-radius: 3px;
   margin-bottom: 20px;
 }
@@ -39,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a.article-title:hover {
-  color: #428bca;
+  color: #1e90ff;
   text-decoration: none;
 }
 
@@ -70,13 +76,34 @@ a.article-title:hover {
   vertical-align: middle;
 }
 
-.account-img {
-  height: 125px;
-  width: 125px;
-  margin-right: 20px;
-  margin-bottom: 16px;
-}
 
 .account-heading {
   font-size: 2.5rem;
 }
+
+table {
+
+}
+
+tr {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bolder
+  text-align: center
+  height: 200px;
+
+}
+
+th {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight:  bolder
+  text-align: center
+  border-bottom: 1px solid #ddd;
+}
+/* .table .td, .th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+} */
+
+tr:hover {background-color:
+   #ffa500;}
